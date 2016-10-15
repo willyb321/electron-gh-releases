@@ -1,5 +1,5 @@
 const semver = require('semver')
-const autoUpdater = require('electron').autoUpdater
+const autoUpdater = require('electron-auto-updater')
 const got = require('got')
 const events = require('events')
 
